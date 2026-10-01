@@ -6,3 +6,8 @@ const TITLES = array(
 	"admin" => "Admin"
 
 );
+
+const DB_HOST = "localhost";
+const DB_NAME = "login-app";
+const DB_USERNAME = "root";
+const DB_PASSWORD = "";

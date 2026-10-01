@@ -21,11 +21,11 @@ include_once "partials/navigation.php";
 			</p>
 
 			<div class="mt-4">
-				<a href="register.html" class="btn btn-primary btn-lg">
+				<a href="register.php" class="btn btn-primary btn-lg">
 					Get Started
 				</a>
 
-				<a href="login.html" class="btn btn-outline-dark btn-lg ms-2">
+				<a href="login.php" class="btn btn-outline-dark btn-lg ms-2">
 					Login
 				</a>
 			</div>

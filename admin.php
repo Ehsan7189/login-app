@@ -5,97 +5,121 @@ include_once 'partials/navigation.php';
 
 ?>
 
-<!-- Register Form -->
+
+<!-- Admin Content -->
 <main>
-	<div class="container">
 
-		<div class="auth-container">
+	<div class='container py-5'>
 
-			<div class="card shadow-sm">
+		<div class='d-flex justify-content-between align-items-center mb-4'>
 
-				<div class="card-body p-4 p-md-5">
+			<div>
+				<h1 class='fw-bold mb-1'>
+					Users
+				</h1>
 
-					<h2 class="text-center fw-bold mb-4">
-						Create Account
-					</h2>
+				<p class='text-muted mb-0'>
+					Manage registered users
+				</p>
+			</div>
 
-					<form>
+			<span class='badge text-bg-primary'>
+                4 Users
+            </span>
 
-						<!-- Username -->
-						<div class="mb-3">
-							<label for="username" class="form-label">
-								Username
-							</label>
+		</div>
 
-							<input
-								type="text"
-								class="form-control"
-								id="username"
-								name="username"
-								placeholder="Enter your username"
-							>
-						</div>
 
-						<!-- Email -->
-						<div class="mb-3">
-							<label for="email" class="form-label">
-								Email
-							</label>
+		<!-- Users Table -->
+		<div class='card shadow-sm'>
 
-							<input
-								type="email"
-								class="form-control"
-								id="email"
-								name="email"
-								placeholder="Enter your email"
-							>
-						</div>
+			<div class='card-body'>
 
-						<!-- Password -->
-						<div class="mb-3">
-							<label for="password" class="form-label">
-								Password
-							</label>
+				<div class='table-responsive'>
 
-							<input
-								type="password"
-								class="form-control"
-								id="password"
-								name="password"
-								placeholder="Enter your password"
-							>
-						</div>
+					<table class='table table-hover align-middle mb-0'>
 
-						<!-- Confirm Password -->
-						<div class="mb-3">
-							<label for="confirm_password" class="form-label">
-								Confirm Password
-							</label>
+						<thead class='table-dark'>
 
-							<input
-								type="password"
-								class="form-control"
-								id="confirm_password"
-								name="confirm_password"
-								placeholder="Repeat your password"
-							>
-						</div>
+						<tr>
+							<th>ID</th>
+							<th>Username</th>
+							<th>Email</th>
+							<th>Created At</th>
+							<th>Action</th>
+						</tr>
 
-						<button
-							type="submit"
-							class="btn btn-primary w-100 mt-2"
-						>
-							Register
-						</button>
+						</thead>
 
-					</form>
+						<tbody>
 
-					<p class="text-center mt-4 mb-0">
-						Already have an account?
-						<a href="login.html">
-							Login
-						</a>
-					</p>
+						<tr>
+							<td>1</td>
+							<td>ehsan</td>
+							<td>ehsan@example.com</td>
+							<td>2026-09-25</td>
+							<td>
+								<button class='btn btn-sm btn-outline-primary'>
+									Edit
+								</button>
+
+								<button class='btn btn-sm btn-outline-danger'>
+									Delete
+								</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td>2</td>
+							<td>milad</td>
+							<td>milad@example.com</td>
+							<td>2026-09-26</td>
+							<td>
+								<button class='btn btn-sm btn-outline-primary'>
+									Edit
+								</button>
+
+								<button class='btn btn-sm btn-outline-danger'>
+									Delete
+								</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td>3</td>
+							<td>saman</td>
+							<td>saman@example.com</td>
+							<td>2026-09-27</td>
+							<td>
+								<button class='btn btn-sm btn-outline-primary'>
+									Edit
+								</button>
+
+								<button class='btn btn-sm btn-outline-danger'>
+									Delete
+								</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td>4</td>
+							<td>ali</td>
+							<td>ali@example.com</td>
+							<td>2026-09-28</td>
+							<td>
+								<button class='btn btn-sm btn-outline-primary'>
+									Edit
+								</button>
+
+								<button class='btn btn-sm btn-outline-danger'>
+									Delete
+								</button>
+							</td>
+						</tr>
+
+						</tbody>
+
+					</table>
 
 				</div>
 
@@ -104,6 +128,7 @@ include_once 'partials/navigation.php';
 		</div>
 
 	</div>
+
 </main>
 
 

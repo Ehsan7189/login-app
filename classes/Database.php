@@ -25,8 +25,8 @@ class Database
 			$this->conn = new PDO($dsn,$this->dbUsername,$this->dbPassword);
 			$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-		}catch(PDOException $exeption){
-			die("Connection failed: " . $exeption->getMessage());
+		}catch(PDOException $exception){
+			die("Connection failed: " . $exception->getMessage());
 		}
 		return $this->conn;
 	}

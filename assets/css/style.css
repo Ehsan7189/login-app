@@ -1,0 +1,60 @@
+/* =========================
+   General
+========================= */
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar {
+    min-height: 64px;
+}
+
+
+/* =========================
+   Home Page
+========================= */
+
+.hero-section {
+    min-height: calc(100vh - 64px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================
+   Authentication
+   Login / Register
+========================= */
+
+.auth-container {
+    max-width: 500px;
+
+    margin: 80px auto;
+}
+
+
+/* =========================
+   Forms
+========================= */
+
+.form-control {
+    min-height: 46px;
+}
+
+
+/* =========================
+   Admin
+========================= */
+
+.table th,
+.table td {
+    vertical-align: middle;
+}

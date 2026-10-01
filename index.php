@@ -1,4 +1,9 @@
+<?php
 
+include_once "partials/header.php";
+include_once "partials/navigation.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,4 +113,9 @@
 
 </body>
 </html>
-```
+<?php
+
+include_once 'partials/footer.php';
+
+
+?>
